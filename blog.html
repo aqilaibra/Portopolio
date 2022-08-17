@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: yellow;
+            color: blue;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            font-family: 'Lucida Sans Unicode';
+        }
+
+
+        .content-blog {
+            background-color: rgb(94, 255, 0);
+            display: flex;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .li-content {
+            list-style: none;
+            padding: 50px;
+            margin: 5px;
+        }
+
+        .a-content {
+            background-color: white;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+       
+        .footer {
+            background-color: orange;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .a-box {
+            background-color: blue;
+            color: azure;
+            width: 100px;
+            height: 50px;
+            font-family: Arial;
+            font-size: 15px;
+            border-radius: 10px;            
+        }
+
+
+        .a-box:hover {
+            background-color: black;
+            transition: 0.5s ease-in-out;
+            transition-delay: 0.3s;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <center>
+            <h1>BLOG</h1>
+        </center>
+    </div>
+    <div class="content">
+        <ul class="content-blog">
+            <li class="li-content"><a href="https://www.duniailkom.com/blog-duniailkom/" class="a-content">
+                    <img src="DuniaIlkom_logo.png"></a></li>
+            <li class="li-content"><a href="https://www.hacktiv8.com/" class="a-content">
+                    <img src="Hacktiv8.png" width="200" height="150"></a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a href="index.html"><input type="submit" value="KEMBALI" class="a-box"></a>
+    </div>
+</body>
+
+</html>
